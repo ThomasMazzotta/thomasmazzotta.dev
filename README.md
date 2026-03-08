@@ -1,1 +1,4 @@
 # thomasmazzotta.dev
+
+DA FARE:
+CANCELLARE ANIMAZIONI STICKER
