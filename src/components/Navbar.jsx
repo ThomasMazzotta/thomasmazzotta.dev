@@ -6,6 +6,7 @@ import homeIcon from "../assets/navbar/home_icon.webp"
 import aboutIcon from "../assets/navbar/about_icon.webp"
 import projectsIcon from "../assets/navbar/projects_icon.webp"
 import contactsIcon from "../assets/navbar/contacts_icon.webp"
+import click from "../assets/navbar/click.webp"
 
 const scaleOnHoverIcon = 1.1
 const scaleOnTapIcon = 0.9
@@ -58,7 +59,9 @@ function Navbar() {
               className="absolute left-[10%] top-[6%] z-60 cursor-pointer border-0 bg-transparent p-0 text-[12px] leading-none"
               aria-label="Apri menu"
             >
-              <span className="inline-block -rotate-6 rounded-md bg-[#fff8e9] px-2 py-1 shadow-sm">click me →</span>
+              <span className="relative right-12 inline-block -rotate-12 ">
+                <img src={click} alt="" className="w-27" />
+              </span>
             </motion.button>
           )}
 
