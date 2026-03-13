@@ -45,7 +45,7 @@ function MenuText() {
     <nav aria-label="Primary Navigation" className="absolute right-5 top-20">
       <ul ref={menuTextRef} className="flex flex-col text-4xl gap-0">
         <li className="menu-line rotate-8 translate-x-4">
-          <a href="#home" className="inline-block">
+          <a href="#home" className="inline-block ">
             Home
           </a>
         </li>

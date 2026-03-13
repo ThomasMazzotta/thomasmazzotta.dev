@@ -73,3 +73,28 @@ body {
   pointer-events: none;
   z-index: 0;
 }
+
+/* cursor */
+html.has-custom-cursor,
+html.has-custom-cursor body,
+html.has-custom-cursor body * {
+  cursor: none !important;
+}
+/* * {
+  cursor: none !important;
+}
+
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}
+
+@media (pointer: coarse) {
+  * {
+    cursor: auto !important;
+  }
+  .custom-cursor-container {
+    display: none;
+  }
+} */
